@@ -47,6 +47,7 @@
                   "layout_width": "@dimen/sixty",
                   "layout_height": "@dimen/sixty",
                   "src": "@drawable/github_icon",
+                  "layout_gravity":"center_horizontal",
                   "onClick": {
                     "someKey": "someValue"
                   },

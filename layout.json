@@ -99,7 +99,7 @@
                   "layout_width": "150dp",
                   "gravity": "center",
                   "layout_marginTop": "10dp",
-                  "text": "ADD TO CART!!",
+                  "text": "ADD",
                   "textColor": "?Theme_AppCompat:actionMenuTextColor",
                   "background": {
                     "@": {

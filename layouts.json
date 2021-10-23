@@ -261,17 +261,15 @@
             "type": "SimpleListAdapter",
             "item-count": "@{items.$length}",
             "item-layout": {
-              "type": "TextView",
-              "data": {
-                "item": "@{items[$index]}"
-              },
-              "layout_width": "match_parent",
-              "padding": "12dp",
-              "layout_marginBottom": "4dp",
-              "gravity": "center",
-              "text": "@{item}",
-              "textSize": "14sp",
-              "textColor": "#323232"
+               "type": "ImageView",
+                  "layout_width": "@dimen/sixty",
+                  "layout_height": "@dimen/sixty",
+                  "src": "https://schoolnutrition.org/uploadedImages/Resources_and_Research/Marketting_and_Communications/SNA-Engage-LCPS-Follow-Us-Banner.jpg",
+                  "layout_gravity":"center_horizontal",
+                  "onClick": {
+                    "someKey": "someValue"
+                  },
+                  "layout_marginRight": "8dp"
             }
           }
         }

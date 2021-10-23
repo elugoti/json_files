@@ -249,6 +249,7 @@
         "layout_width": "match_parent",
         "layout_marginTop":"55dp",
         "layout_height": "248dp",
+        "id":"@+id/rvBanner",
         "background": "#ffffff",
         "orientation":"horizontal",
         "data": {

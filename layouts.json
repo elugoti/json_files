@@ -245,7 +245,7 @@
     "paddingBottom": "0dp",
     "children": [
       {
-        "type": "androidx.recyclerview.widget.RecyclerView",
+        "type": "RecyclerView",
         "layout_width": "match_parent",
         "layout_height": "148dp",
         "background": "#ffffff",

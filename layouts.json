@@ -262,8 +262,8 @@
             "item-count": "@{items.$length}",
             "item-layout": {
                "type": "ImageView",
-                  "layout_width": "@dimen/sixty",
-                  "layout_height": "@dimen/sixty",
+                  "layout_width": "wrap_content",
+                  "layout_height": "wrap_content",
                   "src": "https://schoolnutrition.org/uploadedImages/Resources_and_Research/Marketting_and_Communications/SNA-Engage-LCPS-Follow-Us-Banner.jpg",
                   "layout_gravity":"center_horizontal",
                   "onClick": {

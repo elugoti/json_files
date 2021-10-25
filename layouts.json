@@ -243,7 +243,12 @@
     "layout_height": "wrap_content",
     "padding": "16dp",
     "paddingBottom": "0dp",
-    "children": [
+    "children":[
+      "type": "LinearLayout",
+        "orientation": "horizontal",
+        "layout_width": "match_parent",
+        "background": "#ffffff",
+        "children": [
       {
         "type": "RecyclerView",
         "layout_width": "match_parent",
@@ -312,6 +317,7 @@
           }
         }
       }
+    ]
     ]
   },
   "AlertDialogLayout": {

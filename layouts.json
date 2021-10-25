@@ -243,59 +243,83 @@
     "layout_height": "wrap_content",
     "padding": "16dp",
     "paddingBottom": "0dp",
-        "children": [
+    "children":[
       {
-        "type": "RecyclerView",
+        "type": "RelativeLayout",
+        "orientation": "horizontal",
         "layout_width": "match_parent",
         "layout_height": "wrap_content",
-        "id":"@+id/rvZones",
         "background": "#ffffff",
-        "orientation":"horizontal",
-        "data": {
-          "items": "@{data.achievements}"
-        },
-        "layout_manager": {
-          "type": "LinearLayoutManager"
-        },
-        "adapter": {
-          "@": {
-            "type": "SimpleListAdapter",
-            "item-count": "@{items.$length}",
-            "item-layout": {
-              "type":"LinearLayout",
-                "layout_width": "match_parent",
-        "layout_height": "wrap_content",
-                "background":"#ffffff",
-              "data": {
-                "item": "@{items[$index]}"
-              },
-              "children":[
-                {
-                  "type": "Button",
-              "layout_width": "wrap_content",
-                 "layout_height": "wrap_content",
-              "padding": "12dp",
-              "background":"#3F51B5",
-              "textColor":"#ffffff",
-              "text": "@{item}",
-              "textSize": "14sp",
-              "textColor": "#ffffff"
-                },
-                {
-                  "type": "View",
-              "layout_width": "10sp",
-                 "layout_height": "match_parent",
-              "padding": "12dp",
-              "background":"#ffffff",
-              "gravity": "center"
+        "children": [
+          {
+            "type": "RecyclerView",
+            "layout_width": "match_parent",
+            "layout_height": "148dp",
+            "id":"@+id/rvBanner",
+            "background": "#ffffff",
+            "orientation":"horizontal",
+            "data": {
+              "items": "@{data.achievements}"
+            },
+            "layout_manager": {
+              "type": "LinearLayoutManager"
+            },
+            "adapter": {
+              "@": {
+                "type": "SimpleListAdapter",
+                "item-count": "@{items.$length}",
+                "item-layout": {
+                  "type": "ImageView",
+                  "layout_width": "match_parent",
+                  "layout_height": "wrap_content",
+                  "layout_marginLeft":"4sp",
+                  "layout_marginRight":"4sp",
+                  "src": "https://img.freepik.com/free-psd/corporate-digital-business-marketing-promotion-facebook-cover-photo-web-banner_161103-103.jpg?size=626&ext=jpg",
+                  "layout_gravity":"center_horizontal",
+                  "onClick": {
+                    "someKey": "someValue"
+                  }
                 }
-              ]
+              }
+            }
+          },
+          {
+            "type": "RecyclerView",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "id":"@+id/rvZones",
+            "background": "#ffffff",
+            "orientation":"horizontal",
+            "data": {
+              "items": "@{data.achievements}"
+            },
+            "layout_manager": {
+              "type": "LinearLayoutManager"
+            },
+            "adapter": {
+              "@": {
+                "type": "SimpleListAdapter",
+                "item-count": "@{items.$length}",
+                "item-layout": {
+                  "type": "Button",
+                  "data": {
+                    "item": "@{items[$index]}"
+                  },
+                  "layout_width": "match_parent",
+                  "padding": "12dp",
+                  "background":"#3F51B5",
+                  "textColor":"#ffffff",
+                  "layout_marginTop":"10sp",
+                  "layout_marginBottom": "4dp",
+                  "gravity": "center",
+                  "text": "@{item}",
+                  "textSize": "14sp"
+                }
+              }
             }
           }
-        }
-      
+        ]
       }
-      
     ]
   },
   "AlertDialogLayout": {

@@ -219,15 +219,16 @@
           "@": {
             "collection": "@{fn:slice(@{user.tags},0,4)}",
             "layout": {
-              "type": "TextView",
+              "type": "ImageView",
               "data": {
                 "tag": "@{user.tags[$index]}"
               },
               "layout_marginRight": "8dp",
-              "layout_height": "32dp",
+              "layout_height": "200sp",
+               "layout_width": "match_parent",
               "textSize": "12sp",
               "textColor": "@color/colorAccent",
-              "text": "@{tag}",
+              "src": "@{tag}",
               "padding": "8dp",
               "gravity": "center",
               "onClick": "@{tag}"

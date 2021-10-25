@@ -262,7 +262,13 @@
             "type": "SimpleListAdapter",
             "item-count": "@{items.$length}",
             "item-layout": {
-              "type": "Button",
+              "type":"LinearLayout",
+                "layout_width": "match_parent",
+        "layout_height": "wrap_content",
+                "background":"#ffffff",
+              "children":[
+                {
+                  "type": "Button",
               "data": {
                 "item": "@{items[$index]}"
               },
@@ -273,10 +279,23 @@
               "textColor":"#ffffff",
               "layout_marginRight":"10sp",
               "layout_marginLeft": "10dp",
-              "gravity": "center",
+            
               "text": "@{item}",
               "textSize": "14sp",
               "textColor": "#ffffff"
+                },
+                {
+                  "type": "View",
+              "layout_width": "20sp",
+                 "layout_height": "match_parent",
+              "padding": "12dp",
+              "background":"#ffffff",
+              "layout_marginRight":"10sp",
+              "layout_marginLeft": "10dp",
+              "gravity": "center"
+            
+                }
+              ]
             }
           }
         }

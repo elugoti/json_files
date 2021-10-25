@@ -266,7 +266,8 @@
               "data": {
                 "item": "@{items[$index]}"
               },
-              "layout_width": "match_parent",
+              "layout_width": "wrap_content",
+                 "layout_height": "wrap_content",
               "padding": "12dp",
               "background":"#3F51B5",
               "textColor":"#ffffff",

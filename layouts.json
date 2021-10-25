@@ -266,12 +266,13 @@
                 "layout_width": "match_parent",
         "layout_height": "wrap_content",
                 "background":"#ffffff",
-              "children":[
-                {
-                  "type": "Button",
               "data": {
                 "item": "@{items[$index]}"
               },
+              "children":[
+                {
+                  "type": "Button",
+              
               "layout_width": "wrap_content",
                  "layout_height": "wrap_content",
               "padding": "12dp",

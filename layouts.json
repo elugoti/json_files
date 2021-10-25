@@ -243,46 +243,7 @@
     "layout_height": "wrap_content",
     "padding": "16dp",
     "paddingBottom": "0dp",
-    "children":[
-      {
-      "type": "FrameLayout",
-        "orientation": "horizontal",
-        "layout_width": "match_parent",
-         "layout_height": "wrap_content",
-        "background": "#ffffff",
         "children": [
-      {
-        "type": "RecyclerView",
-        "layout_width": "match_parent",
-        "layout_height": "148dp",
-        "id":"@+id/rvBanner",
-        "background": "#ffffff",
-        "orientation":"horizontal",
-        "data": {
-          "items": "@{data.achievements}"
-        },
-        "layout_manager": {
-          "type": "LinearLayoutManager"
-        },
-        "adapter": {
-          "@": {
-            "type": "SimpleListAdapter",
-            "item-count": "@{items.$length}",
-            "item-layout": {
-               "type": "ImageView",
-                  "layout_width": "match_parent",
-                  "layout_height": "wrap_content",
-                  "layout_marginLeft":"4sp",
-               "layout_marginRight":"4sp",
-                  "src": "https://img.freepik.com/free-psd/corporate-digital-business-marketing-promotion-facebook-cover-photo-web-banner_161103-103.jpg?size=626&ext=jpg",
-                  "layout_gravity":"center_horizontal",
-                  "onClick": {
-                    "someKey": "someValue"
-                  }
-            }
-          }
-        }
-      },
       {
         "type": "RecyclerView",
         "layout_width": "match_parent",
@@ -318,9 +279,9 @@
             }
           }
         }
+      
       }
-    ]
-      }
+      
     ]
   },
   "AlertDialogLayout": {

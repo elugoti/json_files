@@ -270,12 +270,12 @@
               "padding": "12dp",
               "background":"#3F51B5",
               "textColor":"#ffffff",
-              "layout_marginTop":"10sp",
-              "layout_marginBottom": "4dp",
+              "layout_marginRight":"10sp",
+              "layout_marginLeft": "10dp",
               "gravity": "center",
               "text": "@{item}",
               "textSize": "14sp",
-              "textColor": "#323232"
+              "textColor": "#ffffff"
             }
           }
         }

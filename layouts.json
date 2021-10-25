@@ -244,6 +244,7 @@
     "padding": "16dp",
     "paddingBottom": "0dp",
     "children":[
+      {
       "type": "LinearLayout",
         "orientation": "horizontal",
         "layout_width": "match_parent",
@@ -318,6 +319,7 @@
         }
       }
     ]
+      }
     ]
   },
   "AlertDialogLayout": {

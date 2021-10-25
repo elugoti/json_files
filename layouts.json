@@ -272,29 +272,22 @@
               "children":[
                 {
                   "type": "Button",
-              
               "layout_width": "wrap_content",
                  "layout_height": "wrap_content",
               "padding": "12dp",
               "background":"#3F51B5",
               "textColor":"#ffffff",
-              "layout_marginRight":"10sp",
-              "layout_marginLeft": "10dp",
-            
               "text": "@{item}",
               "textSize": "14sp",
               "textColor": "#ffffff"
                 },
                 {
                   "type": "View",
-              "layout_width": "20sp",
+              "layout_width": "10sp",
                  "layout_height": "match_parent",
               "padding": "12dp",
               "background":"#ffffff",
-              "layout_marginRight":"10sp",
-              "layout_marginLeft": "10dp",
               "gravity": "center"
-            
                 }
               ]
             }

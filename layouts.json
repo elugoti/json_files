@@ -210,7 +210,7 @@
     "paddingBottom": "0dp",
     "children": [
       {
-        "type": "HorizontalScrollView",
+        "type": "LinearLayout",
         "orientation": "horizontal",
         "layout_width": "match_parent",
         "background": "#ffffff",

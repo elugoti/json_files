@@ -276,41 +276,6 @@
             }
           }
         }
-      },
-      {
-         "type": "RecyclerView",
-        "layout_width": "match_parent",
-        "layout_height": "148dp",
-        "id":"@+id/rvZones",
-        "layout_marginTop":"10sp",
-        "background": "#ffffff",
-        "orientation":"horizontal",
-        "data": {
-          "items": "@{data.achievements}"
-        },
-        "layout_manager": {
-          "type": "LinearLayoutManager"
-        },
-        "adapter": {
-          "@": {
-            "type": "SimpleListAdapter",
-            "item-count": "@{items.$length}",
-            "item-layout": {
-                "type": "Button",
-              "data": {
-                "item": "@{items[$index]}"
-              },
-              "layout_width": "match_parent",
-              "padding": "6dp",
-              "textAllCaps":"false",
-              "layout_margin": "4dp",
-              "gravity": "center",
-              "text": "@{item}",
-              "textSize": "14sp",
-              "textColor": "#ffffff"
-            }
-          }
-        }
       }
     ]
   },

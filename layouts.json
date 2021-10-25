@@ -267,7 +267,7 @@
                   "layout_height": "wrap_content",
                   "layout_marginLeft":"4sp",
                "layout_marginRight":"4sp",
-                  "src": "http://barbaraelmoredesigns.com/wp-content/uploads/2020/11/banners-ads-do-they-really-work-1.jpg",
+                  "src": "https://img.freepik.com/free-psd/corporate-digital-business-marketing-promotion-facebook-cover-photo-web-banner_161103-103.jpg?size=626&ext=jpg",
                   "layout_gravity":"center_horizontal",
                   "onClick": {
                     "someKey": "someValue"

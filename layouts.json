@@ -224,7 +224,7 @@
                 "tag": "@{user.tags[$index]}"
               },
               "layout_marginRight": "8dp",
-              "layout_height": "200sp",
+              "layout_height": "48sp",
               "layout_width": "match_parent",
                "textColor":"#3F51B5",
               "text": "@{tag}",

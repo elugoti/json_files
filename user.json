@@ -17,11 +17,11 @@
       "max": 9999
     },
     "tags": [
-      "http://stg.heybandi.s3.amazonaws.com/uploads/banner/pounded-masalas-banner-1631602075935.jpg",
-      "http://stg.heybandi.s3.amazonaws.com/uploads/banner/pounded-masalas-banner-1631602075935.jpg",
-      "http://stg.heybandi.s3.amazonaws.com/uploads/banner/pounded-masalas-banner-1631602075935.jpg",
-      "http://stg.heybandi.s3.amazonaws.com/uploads/banner/pounded-masalas-banner-1631602075935.jpg",
-      "http://stg.heybandi.s3.amazonaws.com/uploads/banner/pounded-masalas-banner-1631602075935.jpg"
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Delta",
+      "Theta"
     ],
     "type": null
   },
